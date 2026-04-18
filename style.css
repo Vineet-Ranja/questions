@@ -65,3 +65,12 @@ button {
     width: 0%;
     transition: 0.3s;
 }
+.nav-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    background: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
