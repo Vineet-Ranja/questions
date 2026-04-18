@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>⏱ Study Time Tracker</h1>
+
+<a href="index.html" class="nav-btn">⬅ Back</a>
+
+<div class="top-bar">
+    <input type="date" id="datePicker">
+</div>
+
+<div class="card">
+    <h2>Hours Studied</h2>
+    <div class="counter">
+        <button onclick="changeTime(-1)">-</button>
+        <span id="hours">0</span>
+        <button onclick="changeTime(1)">+</button>
+    </div>
+</div>
+
+<h2 style="margin-top:30px;">📈 Time Graph</h2>
+<canvas id="timeChart" height="100"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="time.js"></script>
+
+</body>
+</html>
