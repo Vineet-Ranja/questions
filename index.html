@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JEE Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📘 JEE Daily Tracker</h1>
+
+<div class="top-bar">
+    <input type="date" id="datePicker">
+</div>
+
+<div id="subjectsContainer"></div>
+
+<h2 style="margin-top:30px;">🔥 Overall Total (All Time)</h2>
+<div id="overallContainer"></div>
+
+<h2 style="margin-top:30px;">📊 Progress</h2>
+
+<div id="progressBars"></div>
+
+<h2 style="margin-top:30px;">📈 Daily Graph</h2>
+<canvas id="graphCanvas" height="100"></canvas>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
